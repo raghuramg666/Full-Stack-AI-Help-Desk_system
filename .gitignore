@@ -1,11 +1,23 @@
-.env
+# Python environments and packages
 env/
+source/
 __pycache__/
-logs/
-chat_sessions/
 *.pyc
 *.pyo
 *.pyd
-*.sqlite3
-.DS_Store
+*.dll
+*.lib
+*.so
+*.dylib
+
+# Logs and caches
+logs/
 *.log
+chat_sessions/
+
+# Config and secrets
+.env
+
+# IDE and OS files
+.vscode/
+.DS_Store
