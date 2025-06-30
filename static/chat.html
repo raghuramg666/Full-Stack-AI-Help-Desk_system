@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Helpdesk Chat</title>
+    <style>
+        body { font-family: Arial; background-color: #f2f2f2; padding: 20px; }
+        #chat-box { width: 90%; max-width: 600px; margin: auto; border: 1px solid #ccc; background: #fff; padding: 20px; height: 70vh; overflow-y: scroll; }
+        .message { margin: 10px 0; }
+        .bot { color: blue; }
+        .user { text-align: right; color: green; }
+        #input-area { width: 90%; max-width: 600px; margin: 20px auto; display: flex; }
+        #input-area input { flex: 1; padding: 10px; }
+        #input-area button { padding: 10px; }
+        #toolkit-image-box {
+            width: 90%;
+            max-width: 600px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        #toolkit-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Live Helpdesk Chat</h2>
+
+    <!-- 📸 White box with image -->
+    <div id="toolkit-image-box">
+        <img id="toolkit-image" src="/static/images/toolkit.png" alt="Toolkit" />
+    </div>
+
+    <div id="chat-box">
+        <div class="message bot">🤖 Hello! How can I assist you today?</div>
+    </div>
+
+    <div id="input-area">
+        <input type="text" id="user-input" placeholder="Enter your Name to start" />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        let username = localStorage.getItem("chatUsername");
+        let contact = localStorage.getItem("chatContact");
+
+        const chatBox = document.getElementById("chat-box");
+
+        function appendMessage(role, text) {
+            const msg = document.createElement("div");
+            msg.classList.add("message", role);
+            msg.innerText = text;
+            chatBox.appendChild(msg);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        async function sendMessage() {
+            const inputField = document.getElementById("user-input");
+            const userText = inputField.value.trim();
+            if (!userText) return;
+
+            appendMessage("user", userText);
+            inputField.value = "";
+
+            const response = await fetch("/helpdesk", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    username: username,
+                    contact: contact,
+                    request: userText
+                })
+            });
+
+            const result = await response.json();
+            if (result?.response) {
+                appendMessage("bot", result.response);
+            } else {
+                appendMessage("bot", "Sorry, there was an error processing your request.");
+            }
+        }
+    </script>
+</body>
+</html>

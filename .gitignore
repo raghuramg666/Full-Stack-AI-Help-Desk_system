@@ -1,0 +1,11 @@
+.env
+env/
+__pycache__/
+logs/
+chat_sessions/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.DS_Store
+*.log

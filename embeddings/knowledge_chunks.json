@@ -1,0 +1,62 @@
+[
+  [
+    "{\n  \"password_reset\": {\n    \"description\": \"Password-related issues including resets, lockouts, and policy questions\",\n    \"typical_resolution_time\": \"5-10 minutes\",\n    \"escalation_triggers\": [\n      \"Multiple failed resets\",\n      \"Account security concerns\"\n    ]\n  },\n  \"software_installation\": {\n    \"description\": \"Issues with installing, updating, or configuring software applications\",\n    \"typical_resolution_time\": \"10-30 minutes\",\n    \"escalation_triggers\": [\n      \"Unapproved software requests\",\n      \"System compatibility issues\"\n    ]\n  },\n  \"hardware_failure\": {\n    \"description\": \"Physical hardware problems requiring repair or replacement\",\n    \"typical_resolution_time\": \"2-3 business days\",\n    \"escalation_triggers\": [\n      \"All hardware failures require escalation\"\n    ]\n  },\n  \"network_connectivity\": {\n    \"description\": \"Network access issues including WiFi, VPN, and internet connectivity\",\n    \"typical_resolution_time\": \"15-45 minutes\",\n    \"escalation_triggers\": [\n      \"Network infrastructure issues\",\n      \"Multiple users affected\"\n    ]\n  },\n  \"email_configuration\": {\n    \"description\": \"Email setup, synchronization, and configuration issues\",\n    \"typical_resolution_time\": \"10-20 minutes\",\n    \"escalation_triggers\": [\n      \"Server configuration changes\",\n      \"Distribution list modifications\"\n    ]\n  },\n  \"security_incident\": {\n    \"description\": \"Potential security threats, malware, or suspicious activity\",\n    \"typical_resolution_time\": \"Immediate response\",\n    \"escalation_triggers\": [\n      \"All security incidents require immediate escalation\"\n    ]\n  },\n  \"policy_question\": {\n    \"description\": \"Questions about company IT policies and procedures\",\n    \"typical_resolution_time\": \"5-15 minutes\",\n    \"escalation_triggers\": [\n      \"Policy clarification needed\",\n      \"Exception requests\"\n    ]\n  }\n}",
+    "categories"
+  ],
+  [
+    "# TechCorp Inc. IT Policies and Procedures",
+    "company_it_policies"
+  ],
+  [
+    "Password Policy\n- Minimum 12 characters with uppercase, lowercase, numbers, and symbols\n- Passwords must be changed every 90 days\n- Cannot reuse last 5 passwords\n- Account locked after 5 failed attempts\n- Password reset requires manager approval for privileged accounts",
+    "company_it_policies"
+  ],
+  [
+    "Software Installation Policy\n- Only approved software from IT catalog can be installed\n- Business software requires department head approval\n- Development tools require CTO approval\n- All software must pass security review\n- Personal software prohibited on company devices",
+    "company_it_policies"
+  ],
+  [
+    "Hardware Request Process\n1. Submit request through IT portal with business justification\n2. Manager approval required for requests >$1000\n3. IT team reviews compatibility and security\n4. Procurement processes order within 5-7 business days\n5. Device setup and deployment within 2 business days of arrival",
+    "company_it_policies"
+  ],
+  [
+    "Remote Work IT Requirements\n- VPN connection required for all company resource access\n- Encrypted hard drives mandatory\n- Automatic screen lock after 5 minutes\n- Company-managed antivirus required\n- Personal use limited to lunch breaks and after hours",
+    "company_it_policies"
+  ],
+  [
+    "Security Incident Response\n- Report security incidents to security@techcorp.com immediately\n- Do not attempt to fix security issues yourself\n- Preserve evidence - do not delete files or reset systems\n- Coordinate with IT security team for investigation\n- Document all steps taken and timeline of events",
+    "company_it_policies"
+  ],
+  [
+    "{\n  \"slack\": {\n    \"title\": \"Installing Slack Desktop App\",\n    \"steps\": [\n      \"Download Slack from https://slack.com/downloads\",\n      \"Run the installer with administrator privileges\",\n      \"Sign in with your @techcorp.com email address\",\n      \"Join the #general and #it-support channels\",\n      \"Enable desktop notifications for mentions\",\n      \"Set status to show your working hours\"\n    ],\n    \"common_issues\": [\n      {\n        \"issue\": \"Cannot sign in with company email\",\n        \"solution\": \"Check with IT - your account may not be provisioned yet\"\n      },\n      {\n        \"issue\": \"Notifications not working\",\n        \"solution\": \"Check Windows notification settings and Slack notification preferences\"\n      }\n    ],\n    \"support_contact\": \"it-support@techcorp.com\"\n  },\n  \"office365\": {\n    \"title\": \"Setting up Microsoft Office 365\",\n    \"steps\": [\n      \"Go to portal.office.com\",\n      \"Sign in with your company credentials (firstname.lastname@techcorp.com)\",\n      \"Download and install Office apps from the portal\",\n      \"Activate with your company license\",\n      \"Set up Outlook with company email\",\n      \"Connect OneDrive for file sync\"\n    ],\n    \"common_issues\": [\n      {\n        \"issue\": \"License activation failed\",\n        \"solution\": \"Ensure you're signed in with company account, not personal Microsoft account\"\n      },\n      {\n        \"issue\": \"Outlook not syncing emails\",\n        \"solution\": \"Check network connection and verify Exchange server settings\"\n      }\n    ],\n    \"support_contact\": \"it-support@techcorp.com\"\n  },\n  \"vpn\": {\n    \"title\": \"Installing Company VPN (Cisco AnyConnect)\",\n    \"steps\": [\n      \"Download Cisco AnyConnect from IT portal\",\n      \"Install with administrator rights\",\n      \"Enter server address: vpn.techcorp.com\",\n      \"Use your company username and password\",\n      \"Enable auto-connect for company networks\",\n      \"Test connection to internal resources\"\n    ],\n    \"common_issues\": [\n      {\n        \"issue\": \"Cannot connect to VPN server\",\n        \"solution\": \"Check internet connection and contact IT if server is down\"\n      },\n      {\n        \"issue\": \"VPN connects but cannot access internal sites\",\n        \"solution\": \"Try disconnecting and reconnecting, or contact IT for routing issues\"\n      }\n    ],\n    \"support_contact\": \"it-support@techcorp.com\"\n  }\n}",
+    "installation_guides"
+  ],
+  [
+    "# IT Support Knowledge Base",
+    "knowledge_base"
+  ],
+  [
+    "Password Management\n- Passwords must be minimum 8 characters with mixed case, numbers, and symbols\n- Password reset can be performed through self-service portal at company.com/reset\n- Account lockout occurs after 5 failed login attempts\n- Contact IT support if account remains locked after successful reset",
+    "knowledge_base"
+  ],
+  [
+    "Software Installation Issues\n- All software must be downloaded from approved vendor websites\n- Administrator privileges required for most installations\n- Temporarily disable antivirus during installation if installation fails\n- Clear browser cache and temp files if downloads are corrupted\n- Contact your manager for approval of new software not in approved list",
+    "knowledge_base"
+  ],
+  [
+    "Network Connectivity Problems\n- Check physical cable connections first\n- Restart network adapter in Device Manager\n- Try connecting to guest network to isolate issue\n- Update network drivers if connection is unstable\n- VPN issues: check server status page or contact network team",
+    "knowledge_base"
+  ],
+  [
+    "Email Configuration\n- Use IMAP settings: server mail.company.com, port 993, SSL enabled\n- SMTP settings: server smtp.company.com, port 587, TLS enabled\n- Check spam folder if not receiving expected emails\n- Mailbox storage limit is 10GB - archive old emails if full\n- Contact email admin for distribution list changes",
+    "knowledge_base"
+  ],
+  [
+    "Hardware Support\n- Report hardware failures immediately to prevent data loss\n- Do not attempt repairs on laptops or monitors yourself\n- Backup important data before reporting hardware issues\n- Standard hardware replacement time is 2-3 business days\n- Temporary equipment available for critical business needs",
+    "knowledge_base"
+  ],
+  [
+    "{\n  \"password_reset\": {\n    \"category\": \"Authentication\",\n    \"steps\": [\n      \"Go to https://password.techcorp.com\",\n      \"Enter your company email address\",\n      \"Check email for reset link (check spam folder)\",\n      \"Click link and create new password following policy\",\n      \"Update password in all saved locations (browsers, mobile apps)\",\n      \"Test login on primary work applications\"\n    ],\n    \"escalation_trigger\": \"Multiple failed reset attempts or account lockout\",\n    \"escalation_contact\": \"security@techcorp.com\"\n  },\n  \"slow_computer\": {\n    \"category\": \"Performance\",\n    \"steps\": [\n      \"Check if Windows updates are running in background\",\n      \"Close unnecessary applications and browser tabs\",\n      \"Restart the computer to clear memory\",\n      \"Check available disk space (need >10% free)\",\n      \"Run Windows built-in disk cleanup tool\",\n      \"Check Task Manager for high CPU/memory usage processes\"\n    ],\n    \"escalation_trigger\": \"Performance issues persist after basic troubleshooting\",\n    \"escalation_contact\": \"hardware-support@techcorp.com\"\n  },\n  \"wifi_connection\": {\n    \"category\": \"Network\",\n    \"steps\": [\n      \"Check if WiFi is enabled on device\",\n      \"Forget and reconnect to TechCorp-WiFi network\",\n      \"Try connecting to TechCorp-Guest to test hardware\",\n      \"Restart network adapter in Device Manager\",\n      \"Update WiFi driver if available\",\n      \"Try ethernet connection to isolate WiFi issue\"\n    ],\n    \"escalation_trigger\": \"Unable to connect with any network or ethernet\",\n    \"escalation_contact\": \"network-support@techcorp.com\"\n  },\n  \"email_not_syncing\": {\n    \"category\": \"Email\",\n    \"steps\": [\n      \"Check internet connectivity\",\n      \"Verify Outlook is online (not in offline mode)\",\n      \"Send/Receive all folders manually\",\n      \"Check account settings for correct server configuration\",\n      \"Disable and re-enable the email account\",\n      \"Create new Outlook profile if issues persist\"\n    ],\n    \"escalation_trigger\": \"Email account configuration errors or server connectivity issues\",\n    \"escalation_contact\": \"email-support@techcorp.com\"\n  },\n  \"software_installation_failed\": {\n    \"category\": \"Software\",\n    \"steps\": [\n      \"Run installer as administrator\",\n      \"Temporarily disable antivirus during installation\",\n      \"Check if similar software is already installed (uninstall first)\",\n      \"Clear Windows temp files and restart\",\n      \"Download fresh installer file\",\n      \"Check system requirements match software needs\"\n    ],\n    \"escalation_trigger\": \"Installation fails due to system compatibility or requires admin privileges\",\n    \"escalation_contact\": \"software-support@techcorp.com\"\n  }\n}",
+    "troubleshooting_database"
+  ]
+]
