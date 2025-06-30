@@ -1,3 +1,11 @@
+![image](https://github.com/user-attachments/assets/3767d050-affa-44b6-89ba-ff0c509975e3)
+![image](https://github.com/user-attachments/assets/9d10cf6c-1964-4205-92f2-1cf1f8b8165a)
+![image](https://github.com/user-attachments/assets/329ef6b1-8a8c-4d0c-a1e5-b84648677caf)
+
+![image](https://github.com/user-attachments/assets/587f8689-7100-4ea8-bb73-51784a13154b)
+
+
+
 ## IT Helpdesk Chatbot – AI-Powered Support Assistant
 
 This project is an intelligent, interactive IT Helpdesk Chatbot built using FastAPI, OpenAI GPT, and HTML/JavaScript frontend, designed to streamline IT support workflows in organizations. It delivers instant, professional assistance for common IT issues such as password resets, software installation, hardware failures, and network problems.
@@ -72,7 +80,7 @@ This project is an intelligent, interactive IT Helpdesk Chatbot built using Fast
 * `documents/` – Knowledge base snippets
 * `test_cases/` – Contains structured test scenarios
 
----
+
 
 ### Planned Improvements
 
