@@ -11,7 +11,7 @@ __pycache__/
 *.dylib
 
 # Logs and caches
-logs/
+
 *.log
 chat_sessions/
 

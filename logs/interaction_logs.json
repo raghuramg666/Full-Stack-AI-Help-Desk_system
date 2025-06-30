@@ -1,0 +1,67 @@
+[
+  {
+    "timestamp": "2025-06-30T02:22:18.789681",
+    "username": "Raghu",
+    "contact": "abcd@gmail",
+    "query": "need password reset help",
+    "error": "generate_response() missing 1 required positional argument: 'chat_context'"
+  },
+  {
+    "timestamp": "2025-06-30T02:27:38.042873",
+    "username": "Raghu",
+    "contact": "abcd@gmail",
+    "query": "need password reset",
+    "error": "generate_response() missing 1 required positional argument: 'chat_context'"
+  },
+  {
+    "timestamp": "2025-06-30T02:29:10.952728",
+    "username": "Raghuram",
+    "contact": "abcd@gmail.com",
+    "query": "need help to reset password.",
+    "error": "generate_response() missing 1 required positional argument: 'chat_context'"
+  },
+  {
+    "timestamp": "2025-06-30T02:29:16.628305",
+    "username": "Raghuram",
+    "contact": "abcd@gmail.com",
+    "query": "need help to reset password.",
+    "error": "generate_response() missing 1 required positional argument: 'chat_context'"
+  },
+  {
+    "timestamp": "2025-06-30T02:31:21.990970",
+    "username": "raghuram",
+    "contact": "abcd@gmail.com",
+    "query": "need help to reset password.",
+    "error": "generate_response() missing 1 required positional argument: 'chat_context'"
+  },
+  {
+    "timestamp": "2025-06-30T02:34:23.380913",
+    "username": "ram",
+    "contact": "raghupy1998@gmail.com",
+    "query": "need help to reset password.",
+    "category": "password_reset",
+    "escalate": false,
+    "escalation_reason": "No escalation conditions met.",
+    "response": "Dear ram,\n\nThank you for reaching out for password assistance. To reset your password, please follow these steps:\n1. Go to our self-service portal at company.com/reset\n2. Enter your company email address\n3. Check your email for the reset link (including spam folder)\n4. Click the link and create a new password following our policy guidelines\n5. Update the new password in all saved locations (browsers, mobile apps)\n6. Test login on primary work applications\n\nIf you encounter any issues or remain locked out after successful reset, please contact IT support immediately. Remember, passwords must be a minimum of 8 characters with mixed case, numbers, and symbols.\n\nFor any urgent matters or account lockouts, please escalate to security@techcorp.com.\n\nRegards,\nRaghu"
+  },
+  {
+    "timestamp": "2025-06-30T02:34:41.376823",
+    "username": "ram",
+    "contact": "raghupy1998@gmail.com",
+    "query": "need more help",
+    "category": "general_inquiry",
+    "escalate": false,
+    "escalation_reason": "No escalation conditions met.",
+    "response": "Dear ram,\n\nThank you for your follow-up. If you require further assistance beyond the password reset, please provide specific details about the issue you are facing so we can assist you more effectively. \n\nFor any urgent matters or if you encounter persistent issues, please do not hesitate to escalate to security@techcorp.com. We are here to ensure the security and functionality of your account.\n\nRegards,\nRaghu"
+  },
+  {
+    "timestamp": "2025-06-30T02:36:37.195053",
+    "username": "ram",
+    "contact": "raghupy1998@gmail.com",
+    "query": "can you help me step by step",
+    "category": "general_inquiry",
+    "escalate": false,
+    "escalation_reason": "No escalation conditions met.",
+    "response": "Dear ram,\n\nThank you for your request for step-by-step assistance. To provide you with the best support, could you please specify the issue you are facing? This will help us tailor the instructions to your exact needs.\n\nFor any urgent matters or persistent issues, please escalate to security@techcorp.com. We are here to ensure the security and functionality of your account.\n\nRegards,\nRaghu"
+  }
+]
