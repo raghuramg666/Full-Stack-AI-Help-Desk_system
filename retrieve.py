@@ -4,7 +4,8 @@ from logs.logger_utils import get_logger
 
 # Initialize logger and embedding model
 logger = get_logger(__name__)
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('models/all-MiniLM-L6-v2')
+
 
 # Load knowledge base chunks
 with open("embeddings/knowledge_chunks.json", "r", encoding="utf-8") as f:

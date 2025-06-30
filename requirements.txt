@@ -9,6 +9,7 @@ markdown
 requests
 python-dotenv
 torch
+scipy
 httpx
 transformers
 datasets
